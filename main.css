@@ -59,7 +59,7 @@ hamburguesa se utiliza el siguiente codigo: */
 .menu:before{
 	top: -8px;
 }
-.menu:before{
+.menu:after{
 	top: 8px;
 }
 
@@ -77,4 +77,9 @@ hamburguesa se utiliza el siguiente codigo: */
 	top: 0 !important;
 	background: #fff !important;
 	transform: rotate(45deg);
+}
+.open .menu:before{
+	top: 0 !important;
+	background: #fff !important;
+	transform: rotate(-45deg);
 }
